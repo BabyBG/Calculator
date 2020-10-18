@@ -1,0 +1,50 @@
+.calc {
+    position: relative;
+    left: 15%;
+    top: 10%;
+}
+
+.container {
+    width: 400px;
+    height: 400px;
+    outline: 2px solid black;
+    padding: 0px;
+    margin: 5px;
+    display: inline-grid;
+    grid-template-columns: repeat(4, 100px);
+    grid-template-rows: repeat(4, 80px) 1fr;
+}
+
+.display {
+    width: 400px;
+    height: 75px;
+    outline: 3px solid black;
+    margin: 5px;
+    font-size: 70px;
+    text-align: right;
+}
+
+.button {
+    outline: 1px solid black;
+    font-size: 40px;
+    text-align: center;
+}
+
+#equal {
+    grid-column-start: 1;
+    grid-column-end: 5;
+    font-size: 60px;
+    background-color: paleturquoise;
+}
+
+.operator {
+    background-color: honeydew;
+}
+
+
+
+
+
+
+
+
